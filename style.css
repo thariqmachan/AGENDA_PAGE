@@ -188,16 +188,25 @@ h1,h2,h3,h4,h5,h6{
   /* margin-left: 227px; */
   margin-bottom: 153px;
   font-family: 'Libre Baskerville', serif;
+  padding-left: 100px;
 
 }
+
 .date h1{
-  font-size: 150px;
+  font-size: 140px;
 }
 .date p{
-  font-size: 24px;
+  font-size: 22px;
 }
 .participants{
-  padding-left: 32px;
+  padding-left: 22px;
+}
+.nominations{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.day{
+  padding-right: 12px;
 }
 .detailsBtn{
   border: none;
@@ -208,13 +217,14 @@ h1,h2,h3,h4,h5,h6{
   cursor: pointer;
   font-size: 20px;
   line-height: 30px;
-
 }
 .button{
-  align-items: end;
   display: flex;
- 
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
 }
+
 
 
 
@@ -357,13 +367,13 @@ h1,h2,h3,h4,h5,h6{
     padding-right: 102px;
 }
 .date h1 {
-  font-size: 50px;
+  font-size: 110px;
 }
 .participants {
 padding-left: 14px;
 }
 .date p {
-font-size: 11px;
+font-size: 18px;
 }
 .button{
   justify-content: center;
@@ -379,16 +389,17 @@ font-size: 11px;
     padding-right: 88px;
 }
 .date h1 {
-  font-size: 50px;
+  font-size: 100px;
 }
 .participants {
 padding-left: 14px;
 }
 .date p {
-font-size: 11px;
+font-size: 17px;
 }
 .button{
   justify-content: center;
+  margin-top: 60px;
 }
 }
 
@@ -431,16 +442,21 @@ font-size: 11px;
     padding-bottom: 49px;
 }
 .date h1 {
-  font-size: 50px;
+  font-size: 90px;
 }
 .participants {
 padding-left: 14px;
 }
 .date p {
-font-size: 11px;
+font-size: 16px;
 }
 .button{
   justify-content: center;
+  margin-top: 50px;
+
+}
+.date{
+  padding-left: 86px;
 }
 }
 
@@ -468,16 +484,18 @@ font-size: 11px;
     height: 215px;
   }
   .date h1 {
-    font-size: 50px;
+    font-size: 80px;
 }
 .participants {
   padding-left: 14px;
 }
 .date p {
-  font-size: 11px;
+  font-size: 15px;
 }
 .button{
   justify-content: center;
+  margin-top: 50px;
+
 }
 }
 
@@ -518,16 +536,24 @@ font-size: 11px;
     padding-top: 53px;
   }
   .date h1 {
-    font-size: 50px;
+    font-size: 70px;
 }
 .participants {
   padding-left: 14px;
 }
 .date p {
-  font-size: 11px;
+  font-size: 15px;
 }
 .button{
   justify-content: center;
+  margin-top: 30px;
+
+}
+.detailsBtn{
+  padding: 21px 126px 21px 126px;
+}
+.date{
+  padding-left: 66px;
 }
  
 
@@ -562,16 +588,24 @@ font-size: 11px;
   border-top-left-radius: 110px;
 }
 .date h1 {
-  font-size: 50px;
+  font-size: 65px;
 }
 .participants {
 padding-left: 14px;
 }
 .date p {
-font-size: 11px;
+font-size: 14px;
 }
 .button{
   justify-content: center;
+  margin-top: 20px;
+
+}
+.detailsBtn{
+  padding: 20px 124px 20px 124px;
+}
+.date{
+  padding-left: 53px;
 }
 
 }
@@ -600,17 +634,27 @@ font-size: 11px;
     height: 215px;
   }
   .date h1 {
-    font-size: 50px;
+    font-size: 60px;
 }
 .participants {
   padding-left: 14px;
 }
 .date p {
-  font-size: 11px;
+  font-size: 13px;
 }
 .button{
   justify-content: center;
+  margin-top: 10px;
+
+
 }
+.detailsBtn{
+  padding: 19px 120px 19px 120px;
+}
+.date{
+  padding-left: 53px;
+}
+ 
 }
 
 
@@ -662,9 +706,13 @@ font-size: 11px;
 }
 .button{
   justify-content: center;
+  margin-top: 5px;
 }
-.detailsBtn{
-  padding: 24px 85px 23px 85px
+.detailsBtn {
+  padding: 11px 70px 11px 70px;
+}
+.date{
+  padding-left: 21px;
 }
 
 }
@@ -704,9 +752,12 @@ font-size: 11px;
 }
 .button{
   justify-content: center;
+  margin-top: 0px;
+
+
 }
-.detailsBtn{
-  padding: 25px 98px 20px 92px;
+.detailsBtn {
+  padding: 14px 65px 14px 65px;
 }
 
 }
@@ -740,6 +791,19 @@ font-size: 11px;
 }
 .button{
   justify-content: center;
+  margin-bottom: 47px;
+  margin-top: 105px;
+
+
+}
+.date {
+  margin-top: 117px;
+  margin-bottom: 95px;
+  padding-left: 0;
+}
+.nominations{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 }
 
@@ -764,10 +828,49 @@ font-size: 11px;
 }
 .button{
   justify-content: center;
+  margin-bottom: 47px;
+  margin-top: 0px;
+
+
 }
 .detailsRow{
   margin: 0px 34px 0px 34px;
+  }
+  .date {
+    margin-top: 99px;
+    margin-bottom: 88px;
+    padding-left: 0;
 }
+.detailsBtn {
+  padding: 20px 78px 20px 78px;
+}
+.nominations{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+}
+
+
+
+@media(max-width:442px){
+  .detailsBtn {
+    padding: 21px 64px 20px 64px;
+  }
+.date {
+  margin-top: 116px;
+  margin-bottom: 84px;
+  padding-left: 0;
+  }
+  .button{
+  margin-top: 0px;
+
+  }
+  .nominations{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+
 }
 
 
@@ -811,7 +914,7 @@ font-size: 11px;
 }
   .detailsBtn{
     border: none;
-    padding: 28px 59px 26px 60px;
+    padding: 22px 59px 22px 60px;
     background: #4942BB;
     border-radius: 50px;
     color: white;
@@ -821,6 +924,10 @@ font-size: 11px;
   }
   .button{
     justify-content: center;
+  margin-bottom: 47px;
+  margin-top: 0px;
+
+
   }
   .detailsRow{
     margin: 0px 16px 0px 16px;
@@ -829,9 +936,14 @@ font-size: 11px;
   .participants {
     padding-left: 20px;
 }
-.button{
-  justify-content: center;
+.nominations{
+  padding-left: 0px;
+  padding-right: 0px;
 }
+.date{
+  padding-left: 0;
+}
+
 
   
 }
@@ -864,7 +976,7 @@ font-size: 11px;
   }
   /* third section  */
   .date h1{
-    font-size: 59px;
+    font-size: 55px;
   }
   .date p{
     font-size: 12px;
@@ -888,11 +1000,19 @@ font-size: 11px;
   }
   .button{
     justify-content: center;
+  margin-bottom: 47px;
+  margin-top: 0px;
+
+
+
   }
+  .date {
+    margin-top: 99px;
+    margin-bottom: 71px;
+    }
 }
 
-
-@media(max-width:376px){
+@media(max-width:414px){
   .secondRow {
     margin: 20px 20px 0px 20px;
   }
@@ -907,9 +1027,60 @@ font-size: 11px;
 }
 .button{
   justify-content: center;
+  margin-bottom: 47px;
+  margin-top: 0px;
+
+
 }
 .detailsBtn{
   padding: 24px 52px 24px 52px;
+}
+.date {
+  margin-top: 96px;
+  margin-bottom: 68px;
+  padding-left: 0px;
+
+  }
+  .nominations{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+}
+
+
+@media(max-width:376px){
+  .secondRow {
+    margin: 20px 20px 0px 20px;
+  }
+
+.participants {
+  padding-left: 14px;
+}
+.date p {
+  font-size: 9px;
+}
+.button{
+  justify-content: center;
+  margin-bottom: 47px;
+  margin-top: 0px;
+
+}
+.detailsBtn {
+  padding: 19px 40px 19px 40px;
+}
+.date {
+  margin-top: 91px;
+  margin-bottom: 63px;
+  padding-left: 0px;
+
+  }
+  .date h1 {
+    font-size: 38px;
+}
+.nominations{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 }
 
@@ -945,10 +1116,23 @@ font-size: 11px;
 }
   .button{
     justify-content: center;
+    margin-bottom: 47px;
+  margin-top: 0px;
+
   }
   .participants {
     padding-left: 15px;
 }
+.date {
+  margin-top: 84px;
+  margin-bottom: 58px;
+  padding-left: 0px;
+  }
+  .nominations{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
 
 }
 
